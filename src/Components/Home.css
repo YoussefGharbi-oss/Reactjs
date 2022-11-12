@@ -1,0 +1,151 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #040C18;
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* ie 10+ */
+        background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+        /* global 92%+ browsers support */
+        background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+        background-repeat: no-repeat;
+       
+  }
+  .Navbar {
+    display: flex ;
+   
+  }
+.navbar-links{
+      
+     width: 99%;
+    height: 100px;
+ 
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 155px;
+
+    
+
+   
+}
+.navbar-elements{
+    text-decoration: none;
+    color: white;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-left: 75px;
+    cursor: pointer;
+    
+    
+
+}
+.navbar-container{
+    margin-left: 285px;
+}
+.right-Nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    display: flex;
+}
+
+
+
+
+ /*.btn-login {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  color: white;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin-left: 75px;
+  cursor: pointer;
+  
+ }
+ */
+ .navbar-sign{
+  display: flex ;
+  justify-content: flex-end;
+  margin-left: 255px;
+  margin-right: 180px;
+  width: 250px;
+ }
+ .signin-btn  {
+   
+  color: #fff;
+  background: #fb6c4c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 15px;
+  width: 100px;
+  height: 50px;
+  
+ }
+ .navbar-sign p{
+  text-decoration: none;
+  color: white;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-left: 75px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 80px;
+
+ }
+.sponsor-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-icons div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

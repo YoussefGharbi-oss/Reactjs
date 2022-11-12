@@ -1,0 +1,109 @@
+.Up-text{
+    display: flex;
+    margin-top: 65px;
+}
+.Up-text h1{
+    font-size: 28px;
+    font-family: monospace;
+    color: white;
+    margin-left: 55px;
+    background:linear-gradient(90deg, rgb(76, 231, 255) 0%,rgb(54, 177, 234) 100% );
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.Up-text p {
+    font-size: 20px;
+    width: 50%;
+    color: #81AFDD;
+    margin-left: 280px;
+
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.Description {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1400px;
+     margin-left: 220px;    
+    padding: 2rem;
+    background: var(--color-footer);
+    border-radius: 5px;
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+   height: 750px;
+  }
+ .mid-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 175px;
+ }
+ .mid-text h1{
+    background:linear-gradient(90deg, rgb(76, 231, 255) 0%,rgb(54, 177, 234) 100% );
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 50px;
+}
+.mid-text p{
+  color: #F49867;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-right: 35px;
+
+}
+.Feature-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.Line{
+
+width: 38px;
+height: 3px;
+left: 192px;
+top: 1488px;
+
+background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+.Feature-card h1 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: left;
+}
+.Feature-card p{
+    width: 75%;
+    margin-top: 45px;
+    color: #81AFDD ;
+    font-size: 15px;
+    font-weight: bold   ;
+
+
+}
+.Features-card{
+    display: flex;
+    justify-content: space-between;
+}

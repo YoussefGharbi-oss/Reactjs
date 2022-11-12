@@ -1,0 +1,162 @@
+.left-Image img {
+
+    width: 700px;
+    margin-left: 100px;
+
+
+}
+
+.right-text h1 {
+    width: 510px;
+    height: 90px;
+
+    text-align: left;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 45px;
+
+    margin-top: 15px;
+
+    background: linear-gradient(90deg, rgb(76, 231, 255) 0%, rgb(54, 177, 234) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.last-text {
+
+    width: 271px;
+    height: 30px;
+    margin-top: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+
+
+    color: white
+}
+
+.Feature-paragraph {
+    width: 579px;
+    height: 120px;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 35px;
+    text-align: left;
+    color: #81AFDD;
+
+
+}
+
+.right-text span {
+    width: 271px;
+    height: 30px;
+    left: 742px;
+    top: 2655px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #71E5FF;
+
+}
+
+.right-text {
+
+    margin-left: 30px;
+    margin-top: 280px;
+
+}
+
+.Detail-Feature {
+    display: flex;
+    margin-left: 180px;
+    height: 800px;
+}
+
+.Ad-Rectangle {
+
+
+    width: 1170px;
+    height: 172.65px;
+    left: 135px;
+    background: linear-gradient(90deg, rgb(76, 231, 255) 0%, rgb(54, 177, 234) 100%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+    margin-left: 350px;
+    margin-top: 90px;
+
+
+}
+
+.Ad-Rectangle p {
+    width: 318.87px;
+    height: 46.89px;
+    left: 181px;
+    top: 3224.21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 28px;
+    color: #0E0E0E;
+}
+
+.Ad-Rectangle h1 {
+    width: 801.87px;
+    height: 70.34px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    margin-left: 28px;
+    color: #000000;
+}
+
+.btn-Possibility {
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 189.14px;
+    height: 59.4px;
+
+    background: #000000;
+    border-radius: 40px;
+    margin-left: 130px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.btn-Possibility:hover {
+    letter-spacing: 2px;
+    opacity: 1;
+    transform: scale(1, 1);
+
+}
+
+.Possibility {
+    height: 1100px;
+}
+
+.center {
+    display: flex;
+
+}

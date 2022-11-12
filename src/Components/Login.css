@@ -1,0 +1,145 @@
+ 
+.login-page{
+   height: 948px;
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.login {
+    display: flex;
+}
+.login-Svg{
+    width: 50%;
+    margin-right: 120px;
+}
+.main-title{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+     margin-left: 680px;
+}
+.form-container {
+    background-color:  #03172c;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.form-container h1{
+
+    font-size: 32px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email label,
+.password label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+
+     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+
+    color: #81AFDD;
+
+
+
+
+}
+
+.email input,
+.password input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 424px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 1px 2px rgba(31, 41, 55, 0.08);
+    border-radius: 4px;
+
+}
+
+.email {
+    margin-top: 25px;
+}
+
+.password {
+    margin-top: 25px;
+}
+
+.error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    color: #E11D48;
+    ;
+    width: 422px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 25px;
+    background: #FFE4E6;
+    border-radius: 4px;
+}
+
+.Login-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 422px;
+    height: 36px;
+    background:#FF8A71;
+    box-shadow: 0px 1px 2px rgba(31, 41, 55, 0.08);
+    border-radius: 4px;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.tosignup-text{
+    color: #81AFDD;
+    margin-top: 25px;
+    font-weight: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: #FF8A71;
+    padding-left: 15px;
+
+}
